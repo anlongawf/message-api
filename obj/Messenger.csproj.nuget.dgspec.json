@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/anphan/Desktop/Study/Android/Messenger/Messenger/Messenger.csproj": {}
+    "/Users/anphan/Desktop/Study/Android/Messenger-api/Messenger.csproj": {}
   },
   "projects": {
-    "/Users/anphan/Desktop/Study/Android/Messenger/Messenger/Messenger.csproj": {
+    "/Users/anphan/Desktop/Study/Android/Messenger-api/Messenger.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/anphan/Desktop/Study/Android/Messenger/Messenger/Messenger.csproj",
+        "projectUniqueName": "/Users/anphan/Desktop/Study/Android/Messenger-api/Messenger.csproj",
         "projectName": "Messenger",
-        "projectPath": "/Users/anphan/Desktop/Study/Android/Messenger/Messenger/Messenger.csproj",
+        "projectPath": "/Users/anphan/Desktop/Study/Android/Messenger-api/Messenger.csproj",
         "packagesPath": "/Users/anphan/.nuget/packages/",
-        "outputPath": "/Users/anphan/Desktop/Study/Android/Messenger/Messenger/obj/",
+        "outputPath": "/Users/anphan/Desktop/Study/Android/Messenger-api/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/anphan/.nuget/NuGet/NuGet.Config"
@@ -48,23 +48,21 @@
               "target": "Package",
               "version": "[4.0.3, )"
             },
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.35, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[9.0.10, )"
             },
-            "Microsoft.EntityFrameworkCore.Design": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
+            "Microsoft.AspNetCore.SignalR": {
               "target": "Package",
-              "version": "[9.0.0, )"
+              "version": "[1.2.0, )"
             },
-            "Pomelo.EntityFrameworkCore.MySql": {
+            "MySqlConnector": {
               "target": "Package",
-              "version": "[9.0.0, )"
-            },
-            "Pomelo.EntityFrameworkCore.MySql.Design": {
-              "target": "Package",
-              "version": "[1.1.2, )"
+              "version": "[2.3.7, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

@@ -15,5 +15,8 @@ namespace Messenger.Models
 
         [Required, MaxLength(100)]
         public string Password { get; set; }
+
+        [MaxLength(500)]
+        public string? AvatarUrl { get; set; } // URL của avatar
     }
 }
