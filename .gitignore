@@ -1,1 +1,13 @@
 appsettings.json
+
+# Bỏ qua toàn bộ ảnh
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.webp
+*.svg
+
+# Bỏ qua thư mục chứa ảnh (ví dụ /uploads hoặc /images)
+uploads/
+images/
